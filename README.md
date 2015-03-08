@@ -9,9 +9,9 @@ Convert subtitles (SRT) to Advanced Substation Alpha (ASS) for correct output on
 
 ## Usage
 
-  var converter = require('./src/converter');
+  var 3dsub = require('3dsub');
   
-  converter.convert('stubs/bighero.srt', 'bighero.ass');
+  3dsub.convert('stubs/bighero.srt', 'bighero.ass');
 
 ## Contributing
 
