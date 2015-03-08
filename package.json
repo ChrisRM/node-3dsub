@@ -1,6 +1,6 @@
 {
   "name": "node-3dsub",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Convert subtitles (SRT) to Advanced Substation Alpha (ASS) for correct output on 3D screens",
   "homepage": "https://github.com/ChrisRM/node-3dsub",
   "author": "Chris Magnussen <chris@codecandy.no> (http://codecandy.no/)",
