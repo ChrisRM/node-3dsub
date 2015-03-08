@@ -1,0 +1,68 @@
+{
+	"info": {
+		"title": "<untitled>",
+		"script_type": "v4.00+",
+		"collisions": "Normal",
+		"play": {
+			"res": {
+				"x": 1920,
+				"y": 1080
+			},
+			"depth": 0
+		},
+		"timer": "100.0000",
+		"wrap_style": 1
+	},
+	"style": {
+		"name": "Default",
+		"font": {
+			"family": "Freesans",
+			"size": 64,
+			"scale": {
+				"x": 50,
+				"y": 100
+			}
+		},
+		"color": {
+			"primary": "&H00FFFFFF",
+			"secondary": "&H00000000",
+			"outline": "&H00000000",
+			"background": "&H00000000"
+		},
+		"bold": 0,
+		"italic": 0,
+		"underline": 0,
+		"strikeout": 0,
+		"spacing": 0,
+		"angle": 0,
+		"border": {
+			"style": 1,
+			"outline": 1,
+			"shadow": 1
+		},
+		"alignment": 2,
+		"margin": {
+			"left": 5,
+			"right": 965,
+			"vertical": 0
+		},
+		"encoding": 0
+	},
+	"event": {
+		"layer": 0,
+		"time": {
+			"start": "",
+			"end": ""
+		},
+		"effect": "",
+		"margin": {
+			"left": 0,
+			"right": 0,
+			"vertical": 0
+		},
+		"style": "Default",
+		"name": "",
+		"text": ""
+	},
+	"events": []
+}

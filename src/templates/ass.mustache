@@ -1,0 +1,26 @@
+[Script Info]
+; 3D subtitles converted by node-32sub
+{{#info}}
+Title: {{{title}}}
+ScriptType: {{{script_type}}}
+Collisions: {{{collisions}}}
+PlayResX: {{{play.res.x}}}
+PlayResY: {{{play.res.y}}}
+PlayDepth: {{{play.depth}}}
+Timer: {{{timer}}}
+WrapStyle: {{{wrap_style}}}
+{{/info}}
+
+{{#style}}
+[v4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default_Le, {{{font.family}}}, {{{font.size}}}, {{{color.primary}}}, {{{color.secondary}}}, {{{color.outline}}}, {{{color.background}}}, {{{bold}}}, {{{italic}}}, {{{underline}}}, {{{strikeout}}}, {{{font.scale.x}}}, {{{font.scale.y}}}, {{{spacing}}}, {{{angle}}}, {{{border.style}}}, {{{border.outline}}}, {{{border.shadow}}}, {{{alignment}}}, {{{margin.left}}}, {{{margin.right}}}, {{{margin.vertical}}}, {{{encoding}}}
+Style: Default_Ri, {{{font.family}}}, {{{font.size}}}, {{{color.primary}}}, {{{color.secondary}}}, {{{color.outline}}}, {{{color.background}}}, {{{bold}}}, {{{italic}}}, {{{underline}}}, {{{strikeout}}}, {{{font.scale.x}}}, {{{font.scale.y}}}, {{{spacing}}}, {{{angle}}}, {{{border.style}}}, {{{border.outline}}}, {{{border.shadow}}}, {{{alignment}}}, {{{margin.right}}}, {{{margin.left}}}, {{{margin.vertical}}}, {{{encoding}}}
+{{/style}}
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+{{#events}}
+Dialogue: {{{layer}}},{{{time.start}}},{{{time.end}}},Default_Le,{{{name}}},{{{margin.left}}},{{{margin.right}}},{{{margin.vertical}}},{{{effect}}},{{{text}}}
+Dialogue: {{{layer}}},{{{time.start}}},{{{time.end}}},Default_Ri,{{{name}}},{{{margin.right}}},{{{margin.left}}},{{{margin.vertical}}},{{{effect}}},{{{text}}}
+{{/events}}
