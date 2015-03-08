@@ -1,27 +1,17 @@
-node-3dsub
+3DSub
 =========
 
 Convert subtitles (SRT) to Advanced Substation Alpha (ASS) for correct output on 3D screens
 
 ## Installation
 
-  npm install node-3d
+  npm install 3dsub
 
 ## Usage
 
-  var scapegoat = require('scapegoat')
-      escape = scapegoat.escape,
-      unescape = scapegoat.unescape;
-
-  var html = '<h1>Hello World</h1>',
-      escaped = escape(html),
-      unescaped = unescape(escaped);
-
-  console.log('html', html, 'escaped', escaped, 'unescaped', unescaped);
-
-## Tests
-
-  npm test
+  var converter = require('./src/converter');
+  
+  converter.convert('stubs/bighero.srt', 'bighero.ass');
 
 ## Contributing
 
